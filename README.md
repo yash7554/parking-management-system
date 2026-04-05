@@ -37,3 +37,8 @@ URL: /api/parking/unpark/{vehicleNumber}
 Method: POST
 
 Example: http://localhost:8080/api/parking/unpark/MH12AB1234
+
+5.Output:
+you can see database updated in mysqlworkbench by using query:
+select*from parking_slot
+
